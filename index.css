@@ -74,5 +74,35 @@ body{
 	padding: 10px 70px;
 	font-size: 15px;	
 }
+.table{
+	width: 1000px;
+	margin: 0px 0px;
+	font-size: 18px;
+	border-collapse: collapse;
+}
+.table tr th {
+	text-align: center;
+	border: 1px solid black;
+	padding: 15px ;
+	background-color: #E6E6E6;
+}
 
+.table tr td{
+	text-align: center;
+	border: 1px solid black;
+	padding: 16px;
+}
+.table tr:nth-child(odd) {
+ background-color: #E6E6E6;
+}
+.table tr:nth-child(even) {
+  background-color: #CCCCCC;
+}
 
+.table h3{
+	background-color: #B3B3B3;
+	height: 70px;
+	line-height: 70px;
+	margin: 90px 0px 0px;
+	font-size: 30px;
+}
